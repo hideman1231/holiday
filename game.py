@@ -1,4 +1,5 @@
-from models import Warrior, Dragon, EnemyDown, GameOver
+from models import Warrior, Dragon
+from exception import GameOver, EnemyDown
 
 def game():
 	hero = input("Выберите героя: ")
